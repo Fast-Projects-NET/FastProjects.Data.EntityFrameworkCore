@@ -13,6 +13,7 @@
         <PackageReference Include="coverlet.collector" />
         <PackageReference Include="FluentAssertions" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" />
         <PackageReference Include="Testcontainers" />
         <PackageReference Include="Testcontainers.PostgreSql" />
@@ -25,7 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\FastProjects.Data.EntityFrameworkCore\FastProjects.Data.EntityFrameworkCore.csproj" />
       <ProjectReference Include="..\FastProjects.Data.EntityFrameworkCore.TestApp\FastProjects.Data.EntityFrameworkCore.TestApp.csproj" />
     </ItemGroup>
 
