@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastProjects.Data.EntityFrameworkCore", "src\FastProjects.Data.EntityFrameworkCore\FastProjects.Data.EntityFrameworkCore.csproj", "{96710370-9D63-4C6F-8B75-AA7490AF7FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastProjects.Data.EntityFrameworkCore.TestApp", "tests\FastProjects.Data.EntityFrameworkCore.TestApp\FastProjects.Data.EntityFrameworkCore.TestApp.csproj", "{5E5BE014-A6E7-41E7-AB70-53F806B88872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastProjects.Data.EntityFrameworkCore.TestApp.IntegrationTests", "tests\FastProjects.Data.EntityFrameworkCore.TestApp.IntegrationTests\FastProjects.Data.EntityFrameworkCore.TestApp.IntegrationTests.csproj", "{2E32F5EB-7379-465D-B717-14C6374EB216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96710370-9D63-4C6F-8B75-AA7490AF7FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96710370-9D63-4C6F-8B75-AA7490AF7FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96710370-9D63-4C6F-8B75-AA7490AF7FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96710370-9D63-4C6F-8B75-AA7490AF7FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5BE014-A6E7-41E7-AB70-53F806B88872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5BE014-A6E7-41E7-AB70-53F806B88872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5BE014-A6E7-41E7-AB70-53F806B88872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5BE014-A6E7-41E7-AB70-53F806B88872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E32F5EB-7379-465D-B717-14C6374EB216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E32F5EB-7379-465D-B717-14C6374EB216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E32F5EB-7379-465D-B717-14C6374EB216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E32F5EB-7379-465D-B717-14C6374EB216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
