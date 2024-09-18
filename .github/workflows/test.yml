@@ -36,32 +36,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      # Set up Docker on supported runners (Linux, Windows)
-      - name: Set up Docker on Ubuntu
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
-          sudo systemctl start docker
-          sudo usermod -aG docker $USER
-
-      - name: Set up Docker on Windows
-        if: runner.os == 'Windows'
-        run: |
-          Start-Service docker
-          docker --version
-
-      - name: Set up Docker on macOS
-        if: runner.os == 'macOS'
-        run: |
-          brew install --cask docker
-          open /Applications/Docker.app
-          until docker system info; do sleep 1; done
-
-      - name: Verify Docker Installation
-        run: docker --version
-        
           
       - name: Restore
         run: dotnet restore ${{ env.SOLUTION_PATH }}
