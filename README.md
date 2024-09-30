@@ -1,7 +1,3 @@
-# To configure the repository template:
-
-___
-
 # 🚀 **FastProjects.Data.EntityFrameworkCore**
 
 ![Build Status](https://github.com/Fast-Projects-NET/FastProjects.Data.EntityFrameworkCore/actions/workflows/test.yml/badge.svg)
