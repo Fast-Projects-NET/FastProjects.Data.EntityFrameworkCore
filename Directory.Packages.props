@@ -1,6 +1,6 @@
 <Project>
   <ItemGroup>
-    <PackageVersion Include="FastEndpoints" Version="5.29.0" />
+    <PackageVersion Include="FastEndpoints" Version="5.30.0" />
     <PackageVersion Include="FastEndpoints.Swagger" Version="5.29.0" />
     <PackageVersion Include="FastProjects.Endpoints" Version="1.0.8" />
     <PackageVersion Include="FastProjects.SharedKernel" Version="1.0.8" />
