@@ -5,7 +5,7 @@
     <PackageVersion Include="FastProjects.Endpoints" Version="1.0.8" />
     <PackageVersion Include="FastProjects.SharedKernel" Version="1.0.8" />
     <PackageVersion Include="FluentAssertions" Version="6.12.1" />
-    <PackageVersion Include="MassTransit.EntityFrameworkCore" Version="8.2.5" />
+    <PackageVersion Include="MassTransit.EntityFrameworkCore" Version="8.3.0" />
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.10" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
